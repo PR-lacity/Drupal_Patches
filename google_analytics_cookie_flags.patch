@@ -1,0 +1,12 @@
+diff --git src/Form/GoogleAnalyticsAdminSettingsForm.php src/Form/GoogleAnalyticsAdminSettingsForm.php
+index c7810a7..4b5b8fb 100644
+--- src/Form/GoogleAnalyticsAdminSettingsForm.php
++++ src/Form/GoogleAnalyticsAdminSettingsForm.php
+@@ -1042,6 +1042,7 @@ class GoogleAnalyticsAdminSettingsForm extends ConfigFormBase {
+       'client_id',
+       'currency',
+       'country',
++      'cookie_flags',
+       'cookie_name',
+       'cookie_domain',
+       'cookie_expires',
